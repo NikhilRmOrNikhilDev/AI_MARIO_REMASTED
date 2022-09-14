@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+body{
+    text-align: center;
+}
+.navbar{
+    background-color: rgba(161, 41, 41, 0.938) !important;
+    font-weight: 500;
+}
+.navbar .navbar-brand{
+    height: 100%;
+    background-color: brown;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(224, 155, 77);
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 2px 50px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 50px -9px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 50px -9px rgba(0,0,0,0.75);
+    transition: all 0.5s ease;
+}
+.navbar .navbar-brand:hover{
+    box-shadow: none;
+    color: white;
+}
+.navbar .navbar-nav .nav-link.active{
+    color: rgb(224, 155, 77);
+}
+.navbar .navbar-nav .nav-link{
+    height: 100%;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(224, 155, 77);
+    margin: 0 10px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #fff;
+    border-bottom: 3px solid rgba(168, 24, 24, 0.842);
+}
+#h1h1{
+    color: #000;
+    font-size: 18px;
+}
+.glm{
+    background: url(crash-4.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgb(253, 200, 53);
+}
+.carousel-caption{
+    opacity: 1.5;
+}
